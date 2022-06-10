@@ -16,10 +16,10 @@ This project EaseVent is a social web application that allows users plan events/
 2. Clone the project from Github to the directory you chose and navigate to the directory using the command:
 ```
 # Clone the repository
-$ git clone xxx
+$ git clone https://github.com/Zhibo2002/Web.git
 
 # Go into the repository
-$ cd xxx
+$ cd Web
 ```
 3. Install the dependency using the command:
 ```
@@ -36,16 +36,14 @@ $ mysql --host=127.0.0.1 < file.sql
  - Users
    - Sign up/log in.
    - Be able to log in with Google account.
-   - Create a new event.
+   - Create a new event.?
    - Generate a link for people without accounts.
-   - Specify their availability for an event.
-   - Link their calendar to automatically check their availability.
-   - See times when everyone is available for an event.
-   - Confirm/finalise an event time.
-   - Add the finalised event to their calendar.
+   - Specify their availability for an event.?
 
 ### To do:
+ - See times when everyone is available for an event.
  - System Admins part.
+ - Confirm/finalise an event time.
 
 ## Sources
 This application is inspired by [Eventbrite](https://www.eventbrite.com/).
