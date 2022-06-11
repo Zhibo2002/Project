@@ -1,0 +1,1037 @@
+/******************Index Page*********************************%%%%%%%%%%%@@@@@@@@@@@@#@#@#@#$#%$$%^$^%$^************************index Page*/
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700');
+@import url("https://fonts.googleapis.com/css?family=Metal+Mania");
+
+* {
+    box-sizing: border-box;
+  }
+
+  /* Style the body */
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: white;
+  }
+  .bkd_c{
+    background-color: white;
+  }
+
+  /* Header/logo Title */
+  .header {
+    padding: 80px;
+    text-align: center;
+    background:beige;
+    color: black;
+  }
+ #aboutMP{
+     color:white;
+     font-size: 5rem;
+ }
+
+ .QLtext{
+     color: white;
+     font-style:normal;
+     margin: 0;
+ }
+  /* Increase the font size of the heading */
+  .header h1 {
+    font-size: 40px;
+  }
+
+  /* Sticky navbar  */
+  .navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    
+  }
+
+  /* Style the navigation bar links */
+  .navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+  }
+.login-container{
+  float:right;
+}
+.login-container button{
+  float: right;
+  padding: 6px 10px;
+  margin:10px;
+  background-color: #555;
+  color: white;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+.login-container button:hover {
+  background-color: lightgrey;
+}
+.input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+  width:120px;
+}
+
+  /* Right-aligned link */
+  .navbar a.right {
+    float: right;
+  }
+
+  /* Change color on hover */
+  .navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  /* Active/current link */
+  .navbar a.active {
+    background-color: #666;
+    color: white;
+  }
+
+  /* Column container */
+  .row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+  }
+
+  /* Create two unequal columns that sits next to each other */
+  /* Sidebar/left column */
+  .side {
+    -ms-flex: 90%; /* IE10 */
+    flex: 100%;
+    background-color: linen;
+    padding: 20px;
+    align-items: center;
+  }
+
+  /* Main column */
+  .main {
+    -ms-flex: 70%; /* IE10 */
+    flex: 70%;
+    background-color: white;
+    padding: 20px;
+    color:black;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .main h5{
+      font-size: 18px;
+      color: rgb(15, 49, 62);
+      font-weight: 200;
+      font-family: sans-serif;
+  }
+
+  /* Fake image, just for this example */
+  .ql-btn{
+    background-color: transparent;
+    border-style: groove;
+  }
+  .pe-btn{
+    background-color: transparent;
+    border: transparent;
+    font-size:3rem;
+    color: white;
+  }
+.ql-btn:hover {font-size: 1rem;}
+.pe-btn:hover {font-size: 4rem;}
+
+.button:active {
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+  #accsetting{
+    color: white;
+  }
+  .img {
+    background-color: #aaa;
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    object-fit: contain;
+    color: white;
+    border-style: solid;
+    border-color:black;
+
+
+  }
+  .img-fun{
+    width: 100%;
+    height: 300px;
+    padding: 10px;
+    margin: 10px;
+    border: 10px;
+    text-align: center;
+    object-fit: contain;
+    color:black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2rem;
+
+
+  }
+  /*text on image*/
+  .imageContainer {
+    position:sticky;
+    text-align: center;
+    color: white;
+    overflow:hidden;
+  }
+  .titleOnimage{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow:hidden;
+  }
+  .textOnimage-details{
+    position: absolute;
+    top: 70%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color:white;
+    padding: 3px;
+    font-size: 1rem;
+    margin-left: 250px;
+    overflow:hidden;
+
+  }
+  /*****************Events Page***********************************************************Events Page******************************/
+
+.search{
+  width:70%;
+  float:center;
+  margin:auto;
+}
+.events-headnav{
+  float:left;
+}
+.events-headnav-item{
+  color:white;
+  font-size:20px;
+  margin:5px;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: Raleway;
+    color: #777;
+}
+
+html, body {
+
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+}
+.eventstoshow{
+  background-image: url("");
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+.nav ul {
+    margin: 0;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a {
+    display: inline-block;
+    padding: .5em;
+    color: white;
+    text-decoration: none;
+}
+
+.main-nav {
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(255, 255, 255, .3)
+}
+
+.main-nav li {
+    padding: 0 5%;
+}
+
+.nav a:hover {
+    background-color: rgba(255, 255, 255, .3)
+}
+
+.main-header {
+    background-color: rgba(0, 0, 0, .6);
+    background-image: url("public/images/Back.jpg");
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-bottom: 30px;
+}
+
+.event-head {
+    text-align: center;
+    font-size: 4em;
+
+    font-weight: normal;
+    color: white;
+}
+
+.event-head-large {
+    font-size: 5em;
+}
+
+.content-section {
+    margin: 1em;
+    margin-left: 2em;
+}
+.content-section-left{
+    align-content: center;
+    float: contour;
+}
+/*************************************create event form***********************************************/
+#user_menu{
+    float: left;
+    margin-right: 100px;
+
+}
+#EventForm{
+    width: 300px;
+    box-shadow:5px 5px 5px 0px rgb(85, 82, 82);
+}
+#clearbtn{
+  float: right;
+  margin: 0.4em;
+}
+#createbtn{
+  float: right;
+  margin: 00.4em;
+}
+
+.container {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+.section-header {
+    font-family: "Metal Mania";
+    font-weight: normal;
+    color: #333;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.about-band-image {
+    float: left;
+    height: 200px;
+    width: 200px;
+    margin: 15px;
+    border-radius: 50%;
+}
+
+.btn {
+    text-align: center;
+    vertical-align: middle;
+    padding: .67em .67em;
+    cursor: pointer;
+}
+
+.btn-header {
+    margin: .5em 15% 2em 15%;
+    color: white;
+    border: 2px solid #2D9CDB;
+    background-color: rgba(255, 255, 255, .1);
+    border-radius: 0;
+    font-size: 1.5em;
+    font-weight: lighter;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.btn-header:hover {
+    background-color: rgba(255, 255, 255, .3);
+}
+
+.btn-play {
+    display: block;
+    margin: 0 auto;
+    color: #2D9CDB;
+    font-size: 4em;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    padding: 0;
+    text-align: center;
+}
+
+.btn-primary {
+    color: white;
+    background-color: #56CCF2;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    background-color: #2D9CDB;
+}
+
+.event-row {
+    border-bottom: 1px solid black;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+}
+
+.tour-row:last-child {
+    border: none;
+}
+
+.event-item {
+    display: inline-block;
+    padding-right: .5em;
+}
+
+.event-date {
+    color: #555;
+    width: 11%;
+    font-weight: bold;
+}
+
+.event-location {
+    width: 24%;
+}
+
+.event-title {
+    width: 42%;
+}
+
+.event-btn {
+    max-width: 19%;
+}
+
+.event-item {
+    margin: 30px;
+}
+
+.event-item-title {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.shop-item-image {
+    height: 250px;
+}
+
+.event-item-details {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.event-item-date {
+    flex-grow: 1;
+    color: #333;
+}
+
+.shop-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.cart-header {
+    font-weight: bold;
+    font-size: 1.25em;
+    color: #333;
+}
+
+.cart-column {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black;
+    margin-right: 1.5em;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.cart-row {
+    display: flex;
+}
+
+.cart-item {
+    width: 45%;
+}
+
+.cart-price {
+    width: 20%;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.cart-quantity {
+    width: 35%;
+}
+
+.cart-item-title {
+    color: #333;
+    margin-left: .5em;
+    font-size: 1.2em;
+}
+
+.cart-item-image {
+    width: 75px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.btn-danger {
+    color: white;
+    background-color: #EB5757;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+}
+
+.btn-danger:hover {
+    background-color: #CC4C4C;
+}
+
+.cart-quantity-input {
+    height: 34px;
+    width: 50px;
+    border-radius: 5px;
+    border: 1px solid #56CCF2;
+    background-color: #eee;
+    color: #333;
+    padding: 0;
+    text-align: center;
+    font-size: 1.2em;
+    margin-right: 25px;
+}
+
+.cart-row:last-child {
+    border-bottom: 1px solid black;
+}
+
+.cart-row:last-child .cart-column {
+    border: none;
+}
+
+.cart-total {
+    text-align: end;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.cart-total-title {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: black;
+    margin-right: 20px;
+}
+
+.cart-total-price {
+    color: #333;
+    font-size: 1.1em;
+}
+
+.btn-purchase {
+    display: block;
+    margin: 40px auto 80px auto;
+    font-size: 1.75em;
+}
+
+/******************Footer*********************************%%%%%%%%%%%@@@@@@@@@@@@#@#@#@#$#%$$%^$^%$^************************Footer*/
+  .footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+  }
+  .footer-ql{
+    font-size: 1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 30px;
+  }
+  #footerCopyright{
+    text-align: right;
+    margin-right: 50px;
+  }
+  .footer-menu{
+      background-color: grey;
+      padding: 20px;
+      align-content: center;
+      text-align: center;
+  }
+  .footer-ql{
+      color: white;
+  }
+
+  /* Responsive layout */
+  @media screen and (max-width: 700px) {
+    .row {
+      flex-direction: column;
+    }
+  }
+
+  /* Responsive layout */
+  @media screen and (max-width: 400px) {
+    .navbar a {
+      float: none;
+      width: 100%;
+    }
+  }
+/******************About Page*********************************%%%%%%%%%%%@@@@@@@@@@@@#@#@#@#$#%$$%^$^%$^************************About Page*/
+  .About-body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+  }
+
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+  .column {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
+  }
+
+  .about-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #474e5d;
+    color: white;
+  }
+
+  .container {
+    padding: 0 16px;
+    background-color: #000;
+  }
+
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .title {
+    color:black;
+    font-size:x-large;
+  }
+
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+  }
+/******************About Page*********************************%%%%%%%%%%%@@@@@@@@@@@@#@#@#@#$#%$$%^$^%$^************************About Page*/
+  .contactInfo-item{
+    color: black;
+    font-size:x-large;
+    margin-left: 20px;
+    font-weight: 400;
+  }
+  /* Style inputs */
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+
+  /* Style the container/contact section */
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+  }
+
+  /* Create two columns that float next to eachother */
+  .column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+  }
+
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+
+  /******************User Page*********************************%%%%%%%%%%%@@@@@@@@@@@@#@#@#@#$#%$$%^$^%$^************************User Page*/
+.userPageBody{
+    background-color: wheat;
+
+}
+  .user_events{
+    margin-left: 10px;
+  }
+  .user_filter{
+    margin-left: 10px;
+  }
+  .side_bar{
+    width:200px;
+    height:100%;
+    float:left;
+    padding:5px;
+}
+.sidebar_list{
+  margin-left: 10px;
+  padding-left: 10px;
+  background-color: black;
+  color: white;
+  font-size: 14px;
+}
+.user-btn{
+  background-color: white;
+  color: black;
+  border: 2px solid;
+
+}
+.user-btn:hover{
+  background-color: black;;
+  color: white
+}
+.user-btn-create{
+  background-color:black;
+  color: white;
+  border: 2px solid black;
+}
+.pe-btn-user{
+  width: 100%;
+  display: block;
+  padding: 8px 16px;
+  text-align: left;
+  border: none;
+  white-space: normal;
+  float: none;
+  outline: 0;
+}
+.events_block{
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #000;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.overlay_effect{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.show_event{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+#searchbar{
+
+  float:right;
+}
+.photo_grid{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+.events_page_show{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+.sidebar_list{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+/*log in page*/
+body
+{
+    margin: 0;
+    padding: 0;
+    background: url(public/images/Back.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+
+.Login_Box
+{
+    width: 320px;
+    height: 500px;
+    background: white;
+    color: black;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    border-radius: 10px;
+}
+
+.Fake_Human_Icon
+{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 30px);
+}
+
+h1
+{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+
+}
+
+.Login_Box p
+{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.Login_Box input
+{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.Login_Box input[type = "text"], input[type = "password"]
+{
+    border: none;
+    border-bottom: 1px solid black;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: black;
+    font-size: 16px;
+}
+
+.Login_Box input[type = "submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #FB2525FF;
+    color: white;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.Login_Box input[type = "submit"]:hover
+{
+    cursor: pointer;
+    background: orange;
+}
+
+.Login_Box a
+{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgrey;
+}
+
+.Login_Box a:hover
+{
+    color: orange;
+}
+
+.social
+{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.input_link
+{
+    text-align: center;
+}
+/*************************************sign up page***************************************8*/
+body
+{
+    margin: 0;
+    padding: 0;
+    background: url(public/images/Back.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+
+.SignUp_Box
+{
+    width: 400px;
+    height: 700px;
+    background: white;
+    color: black;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 30px 30px;
+    border-radius: 10px;
+}
+
+.Fake_Human_Icon
+{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: absolute;
+    top: -40px;
+    left: calc(50% - 30px);
+}
+
+h1
+{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+
+}
+
+.SignUp_Box p
+{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.SignUp_Box input
+{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.SignUp_Box input[type = "text"], input[type = "password"]
+{
+    border: none;
+    border-bottom: 1px solid black;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: black;
+    font-size: 16px;
+}
+
+.SignUp_Box input[type = "submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #FB2525FF;
+    color: white;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.SignUp_Box input[type = "submit"]:hover
+{
+    cursor: pointer;
+    background: orange;
+}
+
+.SignUp_Box a
+{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgrey;
+}
+
+.SignUp_Box a:hover
+{
+    color: orange;
+}
+
+.social
+{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.input_link
+{
+    text-align: center;
+}

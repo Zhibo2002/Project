@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>The Events</title>
+  <meta name="description" content="This is the description">
+  <link rel="stylesheet" href="/stylesheets/easevent.css" />
+  <script src="/javascripts/page.js" async></script>
+</head>
+
+<body>
+
+<div class="header">
+  <h1>EASEVENT</h1>
+  <p>A social event website created by Rookie.</p>
+</div>
+
+<div class="navbar">
+  <a href="index.html" >Home</a>
+  <a href="about.html" >About</a>
+  <a href="events.html">Browse Events</a>
+
+  <div class="login">
+    <form class="login-container">
+      <button><a href="Sign_Up.html">Sign up</a></button>
+      <button><a href="Login.html">Log in</a></button>
+    </form>
+  </div>
+
+</div>
+
+
+<div class="allevents">
+  <h2 class=" section-header"> All Events</h2>
+</div>
+
+    <div class="search">
+                <button class="right">Search Event</button>
+                <input type="text" name="search" />
+    </div>
+
+<div class="eventstoshow">
+  <main >
+  <button onclick="get_events()">Get all events</button>
+  <div id="EventsList">
+  <tr>
+  </tr>
+  </div>
+  </main>
+</div>
+
+<div class="main">
+  <h2>Yayoi Kusama: The Pumpkins</h2>
+  <h5>10AM-5PM, 30 June,2022</h5>
+  <h4> THE ARE GALLERY OF SOUTH AUSTRALIA</h4>
+  <h6>FREE</h6>
+  <div class="img-fun"  style="background-image: url('/images/kusama.jpeg');"><button class="pe-btn" onclick="document.location='//www.agsa.sa.gov.au/whats-on/exhibitions/yayoi-kusama-the-spirits-of-the-pumpkins-descended-into-the-heavens/'">
+    More</button></div>
+  <br>
+
+  <h2>Tasting Australia</h2>
+  <h5>5PM-10PM, 5-15 May,2022</h5>
+  <h4> VICTORIA SQUARE</h4>
+
+  <div class="img-fun" style="background-image: url('/images/tasteSA.jpeg');"><button class="pe-btn" onclick="document.location='//tastingaustralia.com.au/'">
+    More</button></div>
+  <br>
+  <h2>Light Cycles</h2>
+  <h5>5:30PM-10PM,18-31 JUly,2022</h5>
+  <h4> ADELAIDE BOTANIC GARDENS</h4>
+
+  <div class="img-fun" style="background-image: url('/images/illumin.png');"><button class="pe-btn"  onclick="document.location='//www.illuminateadelaide.com/program/season-2022/light-cycles/?utm_source=Google&utm_medium=Search&utm_campaign=Adwords+2022+Light+Cycles&gclid=Cj0KCQjwmuiTBhDoARIsAPiv6L_rYCO6vB0KyvZJ-LMMHvgBGcGHV2-_WK6sOYMIjZPWR9qScttOgsMaAm0DEALw_wcB'">
+    More</button></div>
+  <br>
+
+  <h2>Wave with Music</h2>
+  <h5>7PM, 18 June,2022</h5>
+  <h4>BUYYAHOUSE CLUB</h4>
+
+  <div class="img-fun" style="background-image: url('/images/Homeimage8.jpeg');"><button class="pe-btn" onclick="document.location='//www.youtube.com/watch?v=XqZsoesa55w'">
+    More</button></div>
+  <br>
+</div>
+</div>
+
+<footer class="w3-container w3-padding-32 w3-dark-grey">
+  <div class="footer-menu">
+    <a  class="footer-ql">EaseVent</a>
+    <a href="index.html" class="footer-ql">Quick Links</a>
+    <a href="about.html" class="footer-ql">Contact Us</a>
+    <a href="#" class="footer-ql">Follow US</a>
+    <a class="footer-ql">EaseVent@2022, all copyright reserved</a>
+  </div>
+</footer>
+</body>
+</html>

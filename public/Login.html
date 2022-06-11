@@ -1,0 +1,55 @@
+<!Doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name = "google-signin-plugin_name" content = "APP">
+    <meta name="google-signin-client_id" content="597856985344-7ta2asgmmao52ciqd61pi5jul6gqtk97.apps.googleusercontent.com">
+    <title>log In</title>
+    <link rel="stylesheet" href="/stylesheets/Log_In.css">
+    <script src = "javascripts/page.js"></script>
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+</head>
+<body>
+<div class="Web_Site_Logo" >
+    <!-- This hyperlink will return to our website's home. But the function not finish yet-->
+
+    <a href="index.html" ><img src="/images/Logo.png"></a>
+</div>
+<div class="Login_Box">
+    <img src="/images/Fake_Human_Icon.jpg" class="Fake_Human_Icon">
+        <h1>
+            Log In
+        </h1>
+
+    <div>
+        <p>
+            Account
+        </p>
+        <input type = "text" name = "username" placeholder="Enter Your Account">
+        <P>
+            Password
+        </P>
+        <input type="password" name = "password" placeholder="Enter Your Password">
+        <input onclick = "login()"type="submit" name = "" value="Login">
+        <hr>
+        <div class = "social">
+            <p>
+                OR
+            </p>
+
+            <div class="g-signin2" data-onsuccess="onSignIn"></div>
+        </div>
+
+        <p class = "input_link" >
+            <a a href="Sign_Up.html"> Don't have an account? </a>  <br>
+        </p>
+    </div>
+
+</div>
+
+
+</body>
+</html>

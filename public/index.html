@@ -1,58 +1,100 @@
-<!Doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
-    <meta name="google-signin-client_id" content="597856985344-7ta2asgmmao52ciqd61pi5jul6gqtk97.apps.googleusercontent.com">
-    <title>log In</title>
-    <link rel="stylesheet" href="/stylesheets/Log_In.css">
-    <script src = "javascripts/page.js"></script>
-    <script src="https://apis.google.com/js/platform.js" async defer></script>
+  <title>Page Title</title>
+  <link rel="stylesheet" href="/stylesheets/easevent.css" media="screen" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
+
 <body>
-<div class="Web_Site_Logo" >
-    <!-- This hyperlink will return to our website's home. But the function not finish yet-->
 
-    <a href="" ><img src="/images/Logo.png"></a>
+<div class="header">
+  <h1>EASEVENT</h1>
+  <p>A social event website created by Rookie.</p>
 </div>
-<div class="Login_Box">
-    <img src="/images/Fake_Human_Icon.jpg" class="Fake_Human_Icon">
-        <h1>
-            Log In
-        </h1>
 
-    <div>
-        <p>
-            Account
-        </p>
-        <input type = "text" name = "username" placeholder="Enter Your Account">
-        <P>
-            Password
-        </P>
-        <input type="password" name = "password" placeholder="Enter Your Password">
-        <input onclick = "login()"type="submit" name = "" value="Login">
-        <hr>
-        <div class = "social">
-            <p>
-                OR
-            </p>
-            <button class="Google_Button">
-                continue with google
-            </button>
-            <div class="g-signin2" data-onsuccess="onSignIn"></div>
-        </div>
+<div class="navbar">
+  <a href="/index.html" >Home</a>
+  <a href="/about.html" >About</a>
+  <a href="/events.html">Browse Events</a>
 
-        <p class = "input_link" >
-            <a href="#"> Lost your password? </a>  <br>
-            <a a href="Sign_Up.html"> Don't have an account? </a>  <br>
-        </p>
+  <div class="login">
+    <form class="login-container">
+      <button><a href="Sign_Up.html">Sign up</a></button>
+      <button><a href="Login.html">Log in</a></button>
+    </form>
+  </div>
+
+</div>
+
+<div class="row">
+  <div class="side">
+
+  <div class="imageContainer">
+    <img src="/80232744/Week12/public/images/Homeimage6.jpeg" alt="About" style="width: 100%;">
+    <div class="titleOnimage"> <h2 id="aboutMP">Welcome To EASEVENT</h2></div>
+    <div class="textOnimage-details">
+      a global self-service ticketing platform for live experiences that allows
+      anyone to create, share, find and attend events that fuel their passions and enrich their lives. From music festivals, marathons,
+       conferences, community rallies, and fundraisers, to gaming competitions and air guitar contests. Our mission is to bring the world
+       together through live experiences.
     </div>
+  </div>
+    <h3>Quick Links</h3>
+    <p>Follow the link to your destination page</p>
+    <div class="img QLtext" style="background-image: url('/images/Homeimage1.jpeg');"><button class="ql-btn" >Create Events</button> </div><br>
+    <div class="img QLtext" style="background-image: url('/images/Homeimage9.jpeg');"><button class="ql-btn">Manage Events</button> </div><br>
+    <div class="img QLtext" style="background-image: url('/images/Homeimage2.jpeg');"><button class="ql-btn">Browse Events</button> </div><br>
+    <div class="img QLtext" style="background-image: url('/images/Homeimage3.jpeg');"><button  id="accsetting" class="ql-btn">Account Setting</button></div>
+  </div>
+  <svg>
+    <g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g>
+  </svg>
+  <div class="main">
+    <h2>Yayoi Kusama: The Pumpkins</h2>
+    <h5>10AM-5PM, 30 June,2022</h5>
+    <h4> THE ARE GALLERY OF SOUTH AUSTRALIA</h4>
+    <h6>FREE</h6>
+    <div class="img-fun"  style="background-image: url('/images/kusama.jpeg');"><button class="pe-btn" onclick="document.location='//www.agsa.sa.gov.au/whats-on/exhibitions/yayoi-kusama-the-spirits-of-the-pumpkins-descended-into-the-heavens/'">
+      More</button></div>
+    <br>
 
+    <h2>Tasting Australia</h2>
+    <h5>5PM-10PM, 5-15 May,2022</h5>
+    <h4> VICTORIA SQUARE</h4>
+
+    <div class="img-fun" style="background-image: url('/images/tasteSA.jpeg');"><button class="pe-btn" onclick="document.location='//tastingaustralia.com.au/'">
+      More</button></div>
+    <br>
+    <h2>Light Cycles</h2>
+    <h5>5:30PM-10PM,18-31 JUly,2022</h5>
+    <h4> ADELAIDE BOTANIC GARDENS</h4>
+
+    <div class="img-fun" style="background-image: url('/images/illumin.png');"><button class="pe-btn"  onclick="document.location='//www.illuminateadelaide.com/program/season-2022/light-cycles/?utm_source=Google&utm_medium=Search&utm_campaign=Adwords+2022+Light+Cycles&gclid=Cj0KCQjwmuiTBhDoARIsAPiv6L_rYCO6vB0KyvZJ-LMMHvgBGcGHV2-_WK6sOYMIjZPWR9qScttOgsMaAm0DEALw_wcB'">
+      More</button></div>
+    <br>
+
+    <h2>Wave with Music</h2>
+    <h5>7PM, 18 June,2022</h5>
+    <h4>BUYYAHOUSE CLUB</h4>
+
+    <div class="img-fun" style="background-image: url('/images/Homeimage8.jpeg');"><button class="pe-btn" onclick="document.location='//www.youtube.com/watch?v=XqZsoesa55w'">
+      More</button></div>
+    <br>
+  </div>
 </div>
 
-
+<div class="footer">
+  <footer class="footer"><div >
+    <div class="footer-menu">
+     <a  class="footer-ql">EaseVent</a>
+      <a href="index.html" class="footer-ql">Quick Links</a>
+      <a href="About.html" class="footer-ql">Contact Us</a>
+      <a href="#" class="footer-ql">Follow US</a>
+      <a id="footerCopyright">@2022, all copyright reserved</a>
+    </div>
+  </div></footer>
+</div>
 </body>
 </html>
