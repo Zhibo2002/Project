@@ -19,7 +19,7 @@ This project EaseVent is a social web application that allows users plan events/
 $ git clone https://github.com/Zhibo2002/Web.git
 
 # Go into the repository
-$ cd Web
+$ cd Project
 ```
 3. Install the dependency using the command:
 ```
@@ -28,7 +28,7 @@ $ npm install
 ```
 4. Start the RDBMS using the command:
 ```
-$ mysql --host=127.0.0.1 < file.sql
+$ mysql --host=127.0.0.1 < easevent.sql
 ```
 
 
